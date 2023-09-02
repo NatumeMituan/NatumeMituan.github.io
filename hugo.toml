@@ -1,4 +1,33 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Mikadukidou'
 theme = 'PaperMod'
+
+[[menu.main]]
+name = 'Posts'
+url = 'posts/'
+
+[[menu.main]]
+name = 'Tags'
+url = 'tags/'
+
+[params]
+showReadingTime = true
+showToc = true
+displayFullLangName = true
+dateFormat = ':date_short'
+showBreadCrumbs = true
+showPostNavLinks = true
+showCodeCopyButtons = true
+
+[params.assets]
+favicon = '/favicon.ico'
+
+[languages]
+[languages.en]
+languageCode = 'en-US'
+languageName = 'English'
+[languages.zh]
+languageCode = 'zh-CN'
+languageName = '简体中文'
+title = '三日月堂'
